@@ -9,7 +9,7 @@ This is a web appliation that will run as soon as you open the url
 ## Usage
 The current hour of the day will be highlighted red, any future hours will be highlighted green and all past hours will be highlighted gray. User can input tasks into given hour description box and save it so the task remains there.
 **Add screenshots for functionality
-
+![alt text](assets/WorkdaySchedulerDemo.gif)
 
 ## License
 Refer to Repository
