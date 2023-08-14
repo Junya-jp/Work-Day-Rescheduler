@@ -59,11 +59,6 @@ $('15 .description').val(localStorage.getItem('15'));
 $('16 .description').val(localStorage.getItem('16'));
 $('17 .description').val(localStorage.getItem('17'));
 
-  //Use our first function to get any user input and corresponding
-  $('taskbutton').on('click', function(){
-    var currenthour = dayjs().hour();
-    alert('Current Task:' + $('currenthour .description').val(localStorage.getItem('currenthour')))
-  })
   // TODO: Add code to display the current date in the header of the page.
   var now = dayjs().format("dddd, MMMM D YYYY");
   $('#currentDay').text(now)
